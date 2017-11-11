@@ -5,3 +5,17 @@ Week 4 assignment
     1. Codebook.md : GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information. a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
     2. README that explains the analysis files is clear and understandable.  
 	3. tidy.txt : a tidy data set post all manipulations showing the average of all variables per activity per subject.
+	
+install and load reshape2 package
+
+read activity labels and features
+
+extract only mean and std values
+
+read train and test data and merge them
+
+use descriptive names for labels in datasets
+
+melt datasets
+
+find mean per subject per activity
